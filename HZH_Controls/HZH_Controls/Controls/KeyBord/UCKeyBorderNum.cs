@@ -21,6 +21,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using HZH_Controls.Properties;
 
 namespace HZH_Controls.Controls
 {
@@ -82,6 +83,9 @@ namespace HZH_Controls.Controls
             if (useCustomEvent)
                 return;
             Label lbl = sender as Label;
+
+            lbl.Image = Resources.数字键背景_按下;
+
             SendKeys.Send(lbl.Tag.ToString());
         }
 
@@ -116,6 +120,19 @@ namespace HZH_Controls.Controls
             if (useCustomEvent)
                 return;
             SendKeys.Send("{ENTER}");
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
+        private void Num_MouseUp(object sender, MouseEventArgs e)
+        {
+            Label lbl = sender as Label;
+
+            lbl.Image = Resources.数字键背景;
+
         }
     }
 }

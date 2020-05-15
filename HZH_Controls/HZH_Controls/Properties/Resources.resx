@@ -238,4 +238,13 @@
   <data name="more1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\more1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="数字键背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\数字键背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="数字键背景_按下" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\数字键背景-按下.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="退格键图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\退格键图标.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
