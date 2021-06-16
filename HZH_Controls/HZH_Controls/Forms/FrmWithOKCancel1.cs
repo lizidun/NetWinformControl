@@ -32,6 +32,41 @@ namespace HZH_Controls.Forms
     [Designer("System.Windows.Forms.Design.ParentControlDesigner, System.Design", typeof(System.ComponentModel.Design.IDesigner))]
     public partial class FrmWithOKCancel1 : FrmWithTitle
     {
+
+        /// <summary>
+        /// Gets or sets the message.
+        /// </summary>
+        /// <value>The message.</value>
+        [Description("消息内容"), Category("自定义")]
+        public string Msg
+        {
+            get
+            {
+                return label_msg.Text;
+            }
+            set
+            {
+                label_msg.Text = value;
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the picture.
+        /// </summary>
+        /// <value>The picture.</value>
+        [Description("消息图片"), Category("自定义")]
+        public Image Pic
+        {
+            get
+            {
+                return pictureBox_msg.BackgroundImage;
+            }
+            set
+            {
+                pictureBox_msg.BackgroundImage = value;
+            }
+        }
+
         /// <summary>
         /// Initializes a new instance of the <see cref="FrmWithOKCancel1" /> class.
         /// </summary>

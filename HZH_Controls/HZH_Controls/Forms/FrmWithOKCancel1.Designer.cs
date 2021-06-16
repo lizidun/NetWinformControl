@@ -52,23 +52,34 @@ namespace HZH_Controls.Forms
             this.btnOK = new HZH_Controls.Controls.UCBtnExt();
             this.btnCancel = new HZH_Controls.Controls.UCBtnExt();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label_msg = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox_msg = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.ucSplitLine_V1 = new HZH_Controls.Controls.UCSplitLine_V();
             this.ucSplitLine_H2 = new HZH_Controls.Controls.UCSplitLine_H();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_msg)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOK
             // 
             this.btnOK.BackColor = System.Drawing.Color.Transparent;
+            this.btnOK.BackgroundImage = global::HZH_Controls.Properties.Resources.按键bj;
+            this.btnOK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnOK.BtnBackColor = System.Drawing.Color.Transparent;
-            this.btnOK.BtnFont = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnOK.BtnFont = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
             this.btnOK.BtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(51)))));
             this.btnOK.BtnText = "确定";
             this.btnOK.ConerRadius = 5;
             this.btnOK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOK.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnOK.FillColor = System.Drawing.Color.White;
+            this.btnOK.EnabledMouseEffect = false;
+            this.btnOK.FillColor = System.Drawing.Color.Transparent;
             this.btnOK.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.btnOK.IsRadius = false;
             this.btnOK.IsShowRect = false;
@@ -78,7 +89,7 @@ namespace HZH_Controls.Forms
             this.btnOK.Name = "btnOK";
             this.btnOK.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.btnOK.RectWidth = 1;
-            this.btnOK.Size = new System.Drawing.Size(213, 62);
+            this.btnOK.Size = new System.Drawing.Size(249, 62);
             this.btnOK.TabIndex = 0;
             this.btnOK.TabStop = false;
             this.btnOK.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -88,24 +99,27 @@ namespace HZH_Controls.Forms
             // btnCancel
             // 
             this.btnCancel.BackColor = System.Drawing.Color.Transparent;
+            this.btnCancel.BackgroundImage = global::HZH_Controls.Properties.Resources.按键bj;
+            this.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnCancel.BtnBackColor = System.Drawing.Color.Transparent;
-            this.btnCancel.BtnFont = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnCancel.BtnFont = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
             this.btnCancel.BtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(119)))), ((int)(((byte)(232)))));
             this.btnCancel.BtnText = "取消";
             this.btnCancel.ConerRadius = 5;
             this.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnCancel.FillColor = System.Drawing.Color.White;
+            this.btnCancel.EnabledMouseEffect = false;
+            this.btnCancel.FillColor = System.Drawing.Color.Transparent;
             this.btnCancel.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.btnCancel.IsRadius = false;
             this.btnCancel.IsShowRect = false;
             this.btnCancel.IsShowTips = false;
-            this.btnCancel.Location = new System.Drawing.Point(214, 0);
+            this.btnCancel.Location = new System.Drawing.Point(250, 0);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.RectColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.btnCancel.RectWidth = 1;
-            this.btnCancel.Size = new System.Drawing.Size(213, 62);
+            this.btnCancel.Size = new System.Drawing.Size(250, 62);
             this.btnCancel.TabIndex = 1;
             this.btnCancel.TabStop = false;
             this.btnCancel.TipsColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(30)))), ((int)(((byte)(99)))));
@@ -114,12 +128,50 @@ namespace HZH_Controls.Forms
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.panel2);
+            this.panel3.Controls.Add(this.panel1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 61);
+            this.panel3.Location = new System.Drawing.Point(0, 41);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(427, 186);
+            this.panel3.Size = new System.Drawing.Size(500, 110);
             this.panel3.TabIndex = 5;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label_msg);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(176, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(324, 110);
+            this.panel2.TabIndex = 1;
+            // 
+            // label_msg
+            // 
+            this.label_msg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label_msg.Font = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label_msg.Location = new System.Drawing.Point(0, 0);
+            this.label_msg.Name = "label_msg";
+            this.label_msg.Size = new System.Drawing.Size(324, 110);
+            this.label_msg.TabIndex = 0;
+            this.label_msg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.pictureBox_msg);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(176, 110);
+            this.panel1.TabIndex = 0;
+            // 
+            // pictureBox_msg
+            // 
+            this.pictureBox_msg.Location = new System.Drawing.Point(110, 20);
+            this.pictureBox_msg.Name = "pictureBox_msg";
+            this.pictureBox_msg.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox_msg.TabIndex = 0;
+            this.pictureBox_msg.TabStop = false;
             // 
             // tableLayoutPanel1
             // 
@@ -132,18 +184,18 @@ namespace HZH_Controls.Forms
             this.tableLayoutPanel1.Controls.Add(this.btnOK, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnCancel, 2, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 248);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 152);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(427, 62);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(500, 62);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // ucSplitLine_V1
             // 
             this.ucSplitLine_V1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(232)))));
             this.ucSplitLine_V1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucSplitLine_V1.Location = new System.Drawing.Point(213, 15);
+            this.ucSplitLine_V1.Location = new System.Drawing.Point(249, 15);
             this.ucSplitLine_V1.Margin = new System.Windows.Forms.Padding(0, 15, 0, 15);
             this.ucSplitLine_V1.Name = "ucSplitLine_V1";
             this.ucSplitLine_V1.Size = new System.Drawing.Size(1, 32);
@@ -154,19 +206,22 @@ namespace HZH_Controls.Forms
             // 
             this.ucSplitLine_H2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.ucSplitLine_H2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ucSplitLine_H2.Location = new System.Drawing.Point(0, 247);
+            this.ucSplitLine_H2.Location = new System.Drawing.Point(0, 151);
             this.ucSplitLine_H2.Name = "ucSplitLine_H2";
-            this.ucSplitLine_H2.Size = new System.Drawing.Size(427, 1);
+            this.ucSplitLine_H2.Size = new System.Drawing.Size(500, 1);
             this.ucSplitLine_H2.TabIndex = 0;
             this.ucSplitLine_H2.TabStop = false;
             // 
             // FrmWithOKCancel1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(427, 310);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(500, 214);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.ucSplitLine_H2);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmWithOKCancel1";
             this.Text = "FrmWithOKCancel";
@@ -174,6 +229,10 @@ namespace HZH_Controls.Forms
             this.Controls.SetChildIndex(this.tableLayoutPanel1, 0);
             this.Controls.SetChildIndex(this.ucSplitLine_H2, 0);
             this.Controls.SetChildIndex(this.panel3, 0);
+            this.panel3.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_msg)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -205,6 +264,9 @@ namespace HZH_Controls.Forms
         /// The uc split line v1
         /// </summary>
         private Controls.UCSplitLine_V ucSplitLine_V1;
-
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label_msg;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox_msg;
     }
 }

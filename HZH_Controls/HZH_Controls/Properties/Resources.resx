@@ -247,4 +247,19 @@
   <data name="退格键图标" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\退格键图标.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="成功符号" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\成功符号.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="警告" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\警告.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="通知框背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\通知框背景.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按键bj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按键bj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按键bj_按下" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\按键bj-按下.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

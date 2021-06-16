@@ -58,21 +58,21 @@ namespace HZH_Controls.Forms
             // 
             this.lblTitle.BackColor = System.Drawing.Color.Transparent;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblTitle.Font = new System.Drawing.Font("微软雅黑", 17F);
+            this.lblTitle.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lblTitle.Location = new System.Drawing.Point(0, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(427, 60);
+            this.lblTitle.Size = new System.Drawing.Size(500, 40);
             this.lblTitle.TabIndex = 5;
             this.lblTitle.Text = "标题";
-            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ucSplitLine_H1
             // 
             this.ucSplitLine_H1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.ucSplitLine_H1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ucSplitLine_H1.Location = new System.Drawing.Point(0, 60);
+            this.ucSplitLine_H1.Location = new System.Drawing.Point(0, 40);
             this.ucSplitLine_H1.Name = "ucSplitLine_H1";
-            this.ucSplitLine_H1.Size = new System.Drawing.Size(427, 1);
+            this.ucSplitLine_H1.Size = new System.Drawing.Size(500, 1);
             this.ucSplitLine_H1.TabIndex = 0;
             this.ucSplitLine_H1.TabStop = false;
             // 
@@ -81,9 +81,9 @@ namespace HZH_Controls.Forms
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.BackgroundImage = global::HZH_Controls.Properties.Resources.dialog_close;
             this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnClose.Location = new System.Drawing.Point(399, 0);
+            this.btnClose.Location = new System.Drawing.Point(472, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(28, 60);
+            this.btnClose.Size = new System.Drawing.Size(28, 40);
             this.btnClose.TabIndex = 6;
             this.btnClose.Visible = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -92,7 +92,7 @@ namespace HZH_Controls.Forms
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(427, 310);
+            this.ClientSize = new System.Drawing.Size(500, 214);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.ucSplitLine_H1);
             this.Controls.Add(this.lblTitle);

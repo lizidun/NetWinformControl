@@ -1041,9 +1041,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\成功符号.png" />
+    <None Include="Resources\按键bj-按下.png" />
+    <None Include="Resources\按键bj.png" />
     <Content Include="Resources\数字键背景-按下.png" />
     <Content Include="Resources\数字键背景.png" />
+    <Content Include="Resources\警告.png" />
     <Content Include="Resources\退格键图标.png" />
+    <Content Include="Resources\通知框背景.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

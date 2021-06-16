@@ -463,6 +463,36 @@ namespace HZH_Controls.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 成功符号 {
+            get {
+                object obj = ResourceManager.GetObject("成功符号", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 按键bj {
+            get {
+                object obj = ResourceManager.GetObject("按键bj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 按键bj_按下 {
+            get {
+                object obj = ResourceManager.GetObject("按键bj_按下", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 数字键背景 {
             get {
                 object obj = ResourceManager.GetObject("数字键背景", resourceCulture);
@@ -483,9 +513,29 @@ namespace HZH_Controls.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap 警告 {
+            get {
+                object obj = ResourceManager.GetObject("警告", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 退格键图标 {
             get {
                 object obj = ResourceManager.GetObject("退格键图标", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 通知框背景 {
+            get {
+                object obj = ResourceManager.GetObject("通知框背景", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

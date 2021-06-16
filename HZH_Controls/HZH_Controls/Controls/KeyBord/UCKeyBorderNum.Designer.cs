@@ -51,66 +51,66 @@ namespace HZH_Controls.Controls
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UCKeyBorderNum));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
             this.ucSplitLine_V13 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.ucSplitLine_H11 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V11 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.ucSplitLine_H10 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V10 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
             this.ucSplitLine_H9 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V9 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.ucSplitLine_H8 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V8 = new HZH_Controls.Controls.UCSplitLine_V();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.ucSplitLine_H6 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V6 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.ucSplitLine_H5 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V5 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.ucSplitLine_H4 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V4 = new HZH_Controls.Controls.UCSplitLine_V();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.ucSplitLine_H3 = new HZH_Controls.Controls.UCSplitLine_H();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.ucSplitLine_H2 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V2 = new HZH_Controls.Controls.UCSplitLine_V();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.ucSplitLine_H1 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_V1 = new HZH_Controls.Controls.UCSplitLine_V();
             this.ucSplitLine_V3 = new HZH_Controls.Controls.UCSplitLine_V();
             this.ucSplitLine_V7 = new HZH_Controls.Controls.UCSplitLine_V();
             this.ucSplitLine_H7 = new HZH_Controls.Controls.UCSplitLine_H();
             this.ucSplitLine_H12 = new HZH_Controls.Controls.UCSplitLine_H();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.ucSplitLine_H3 = new HZH_Controls.Controls.UCSplitLine_H();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -157,6 +157,22 @@ namespace HZH_Controls.Controls
             this.panel13.Size = new System.Drawing.Size(143, 54);
             this.panel13.TabIndex = 12;
             // 
+            // label12
+            // 
+            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label12.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label12.Image = ((System.Drawing.Image)(resources.GetObject("label12.Image")));
+            this.label12.Location = new System.Drawing.Point(0, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(142, 54);
+            this.label12.TabIndex = 3;
+            this.label12.Tag = "0";
+            this.label12.Text = "0";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
+            // 
             // ucSplitLine_V13
             // 
             this.ucSplitLine_V13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -180,6 +196,22 @@ namespace HZH_Controls.Controls
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(143, 54);
             this.panel11.TabIndex = 10;
+            // 
+            // label10
+            // 
+            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label10.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label10.Image = ((System.Drawing.Image)(resources.GetObject("label10.Image")));
+            this.label10.Location = new System.Drawing.Point(0, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(142, 53);
+            this.label10.TabIndex = 3;
+            this.label10.Tag = "7";
+            this.label10.Text = "7";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label10.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
             // 
             // ucSplitLine_H11
             // 
@@ -216,6 +248,22 @@ namespace HZH_Controls.Controls
             this.panel10.Size = new System.Drawing.Size(139, 54);
             this.panel10.TabIndex = 9;
             // 
+            // label9
+            // 
+            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label9.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
+            this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(138, 53);
+            this.label9.TabIndex = 3;
+            this.label9.Tag = "8";
+            this.label9.Text = "8";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
+            // 
             // ucSplitLine_H10
             // 
             this.ucSplitLine_H10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -250,6 +298,22 @@ namespace HZH_Controls.Controls
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(140, 54);
             this.panel9.TabIndex = 8;
+            // 
+            // label8
+            // 
+            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label8.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
+            this.label8.Location = new System.Drawing.Point(0, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(139, 53);
+            this.label8.TabIndex = 3;
+            this.label8.Tag = "9";
+            this.label8.Text = "9";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
             // 
             // ucSplitLine_H9
             // 
@@ -286,6 +350,22 @@ namespace HZH_Controls.Controls
             this.panel8.Size = new System.Drawing.Size(139, 54);
             this.panel8.TabIndex = 7;
             // 
+            // label6
+            // 
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(138, 53);
+            this.label6.TabIndex = 3;
+            this.label6.Tag = "5";
+            this.label6.Text = "5";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
+            // 
             // ucSplitLine_H8
             // 
             this.ucSplitLine_H8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -308,6 +388,35 @@ namespace HZH_Controls.Controls
             this.ucSplitLine_V8.TabIndex = 0;
             this.ucSplitLine_V8.TabStop = false;
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
+            this.panel7.Controls.Add(this.label14);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.panel7.Location = new System.Drawing.Point(282, 162);
+            this.panel7.Margin = new System.Windows.Forms.Padding(0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(140, 54);
+            this.panel7.TabIndex = 6;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label14.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label14.Image = global::HZH_Controls.Properties.Resources.数字键背景;
+            this.label14.Location = new System.Drawing.Point(0, 0);
+            this.label14.Name = "label14";
+            this.label14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label14.Size = new System.Drawing.Size(140, 54);
+            this.label14.TabIndex = 3;
+            this.label14.Tag = "{ENTER}";
+            this.label14.Text = "确定";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Enter_MouseDown);
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.label7);
@@ -320,6 +429,22 @@ namespace HZH_Controls.Controls
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(140, 54);
             this.panel6.TabIndex = 5;
+            // 
+            // label7
+            // 
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
+            this.label7.Location = new System.Drawing.Point(0, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(139, 53);
+            this.label7.TabIndex = 3;
+            this.label7.Tag = "6";
+            this.label7.Text = "6";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
             // 
             // ucSplitLine_H6
             // 
@@ -356,6 +481,22 @@ namespace HZH_Controls.Controls
             this.panel5.Size = new System.Drawing.Size(140, 54);
             this.panel5.TabIndex = 4;
             // 
+            // label3
+            // 
+            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 53);
+            this.label3.TabIndex = 3;
+            this.label3.Tag = "3";
+            this.label3.Text = "3";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
+            // 
             // ucSplitLine_H5
             // 
             this.ucSplitLine_H5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -391,6 +532,22 @@ namespace HZH_Controls.Controls
             this.panel4.Size = new System.Drawing.Size(143, 54);
             this.panel4.TabIndex = 3;
             // 
+            // label5
+            // 
+            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label5.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
+            this.label5.Location = new System.Drawing.Point(0, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(142, 53);
+            this.label5.TabIndex = 3;
+            this.label5.Tag = "4";
+            this.label5.Text = "4";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
+            // 
             // ucSplitLine_H4
             // 
             this.ucSplitLine_H4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -413,6 +570,32 @@ namespace HZH_Controls.Controls
             this.ucSplitLine_V4.TabIndex = 0;
             this.ucSplitLine_V4.TabStop = false;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
+            this.panel3.BackgroundImage = global::HZH_Controls.Properties.Resources.数字键背景;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.ucSplitLine_H3);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.panel3.Location = new System.Drawing.Point(143, 162);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(139, 54);
+            this.panel3.TabIndex = 2;
+            // 
+            // ucSplitLine_H3
+            // 
+            this.ucSplitLine_H3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ucSplitLine_H3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ucSplitLine_H3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.ucSplitLine_H3.Location = new System.Drawing.Point(0, 53);
+            this.ucSplitLine_H3.Name = "ucSplitLine_H3";
+            this.ucSplitLine_H3.Size = new System.Drawing.Size(139, 1);
+            this.ucSplitLine_H3.TabIndex = 1;
+            this.ucSplitLine_H3.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.label2);
@@ -425,6 +608,22 @@ namespace HZH_Controls.Controls
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(139, 54);
             this.panel2.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(138, 53);
+            this.label2.TabIndex = 3;
+            this.label2.Tag = "2";
+            this.label2.Text = "2";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
             // 
             // ucSplitLine_H2
             // 
@@ -460,6 +659,22 @@ namespace HZH_Controls.Controls
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(143, 54);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 53);
+            this.label1.TabIndex = 2;
+            this.label1.Tag = "1";
+            this.label1.Text = "1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
+            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
             // 
             // ucSplitLine_H1
             // 
@@ -527,180 +742,9 @@ namespace HZH_Controls.Controls
             this.ucSplitLine_H12.TabIndex = 4;
             this.ucSplitLine_H12.TabStop = false;
             // 
-            // label12
-            // 
-            this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label12.Image = ((System.Drawing.Image)(resources.GetObject("label12.Image")));
-            this.label12.Location = new System.Drawing.Point(0, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(142, 54);
-            this.label12.TabIndex = 3;
-            this.label12.Tag = "0";
-            this.label12.Text = "0";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label10
-            // 
-            this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label10.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label10.Image = ((System.Drawing.Image)(resources.GetObject("label10.Image")));
-            this.label10.Location = new System.Drawing.Point(0, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 53);
-            this.label10.TabIndex = 3;
-            this.label10.Tag = "7";
-            this.label10.Text = "7";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label10.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label9
-            // 
-            this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label9.Image = ((System.Drawing.Image)(resources.GetObject("label9.Image")));
-            this.label9.Location = new System.Drawing.Point(0, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(138, 53);
-            this.label9.TabIndex = 3;
-            this.label9.Tag = "8";
-            this.label9.Text = "8";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label8
-            // 
-            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label8.Image = ((System.Drawing.Image)(resources.GetObject("label8.Image")));
-            this.label8.Location = new System.Drawing.Point(0, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(139, 53);
-            this.label8.TabIndex = 3;
-            this.label8.Tag = "9";
-            this.label8.Text = "9";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label6
-            // 
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(138, 53);
-            this.label6.TabIndex = 3;
-            this.label6.Tag = "5";
-            this.label6.Text = "5";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label7
-            // 
-            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
-            this.label7.Location = new System.Drawing.Point(0, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 53);
-            this.label7.TabIndex = 3;
-            this.label7.Tag = "6";
-            this.label7.Text = "6";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label3
-            // 
-            this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label3.Image = ((System.Drawing.Image)(resources.GetObject("label3.Image")));
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 53);
-            this.label3.TabIndex = 3;
-            this.label3.Tag = "3";
-            this.label3.Text = "3";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label5
-            // 
-            this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
-            this.label5.Location = new System.Drawing.Point(0, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(142, 53);
-            this.label5.TabIndex = 3;
-            this.label5.Tag = "4";
-            this.label5.Text = "4";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label2
-            // 
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(138, 53);
-            this.label2.TabIndex = 3;
-            this.label2.Tag = "2";
-            this.label2.Text = "2";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // label1
-            // 
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 53);
-            this.label1.TabIndex = 2;
-            this.label1.Tag = "1";
-            this.label1.Text = "1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Num_MouseDown);
-            this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Num_MouseUp);
-            // 
-            // ucSplitLine_H3
-            // 
-            this.ucSplitLine_H3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ucSplitLine_H3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ucSplitLine_H3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.ucSplitLine_H3.Location = new System.Drawing.Point(0, 53);
-            this.ucSplitLine_H3.Name = "ucSplitLine_H3";
-            this.ucSplitLine_H3.Size = new System.Drawing.Size(139, 1);
-            this.ucSplitLine_H3.TabIndex = 1;
-            this.ucSplitLine_H3.TabStop = false;
-            // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(208)))), ((int)(((byte)(227)))));
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
@@ -712,48 +756,6 @@ namespace HZH_Controls.Controls
             this.label4.Tag = "{BACKSPACE}";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Backspace_MouseDown);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.ucSplitLine_H3);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.panel3.Location = new System.Drawing.Point(143, 162);
-            this.panel3.Margin = new System.Windows.Forms.Padding(0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(139, 54);
-            this.panel3.TabIndex = 2;
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.White;
-            this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label14.Font = new System.Drawing.Font("微软雅黑", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((byte)(134)));
-            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(87)))), ((int)(((byte)(165)))));
-            this.label14.Image = global::HZH_Controls.Properties.Resources.数字键背景;
-            this.label14.Location = new System.Drawing.Point(0, 0);
-            this.label14.Name = "label14";
-            this.label14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label14.Size = new System.Drawing.Size(140, 54);
-            this.label14.TabIndex = 3;
-            this.label14.Tag = "{ENTER}";
-            this.label14.Text = "确定";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Enter_MouseDown);
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(122)))), ((int)(((byte)(122)))));
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.panel7.Location = new System.Drawing.Point(282, 162);
-            this.panel7.Margin = new System.Windows.Forms.Padding(0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(140, 54);
-            this.panel7.TabIndex = 6;
             // 
             // UCKeyBorderNum
             // 
@@ -772,13 +774,13 @@ namespace HZH_Controls.Controls
             this.panel10.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -964,7 +966,7 @@ namespace HZH_Controls.Controls
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label4;
         private UCSplitLine_H ucSplitLine_H3;
+        private System.Windows.Forms.Label label4;
     }
 }
