@@ -15,6 +15,7 @@ namespace Test.UC
         public UCTestGridTableCustom()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
         }
 
         private void UCTestGridTableCustom_Load(object sender, EventArgs e)
@@ -43,6 +44,11 @@ namespace Test.UC
                 lstSource.Add(model);
             }
             this.ucDataGridView1.DataSource = lstSource;
+        }
+
+        private void ucDataGridView1_RowCustomEvent(object sender, DataGridViewRowCustomEventArgs e)
+        {
+            HZH_Controls.Forms.FrmTips.ShowTipsSuccess(this.FindForm(), "你点击了："+e.EventName);
         }
     }
 }

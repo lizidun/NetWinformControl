@@ -226,6 +226,7 @@ namespace HZH_Controls.Controls
                 if (item is IDataGridViewCustomCell)
                 {
                     IDataGridViewCustomCell cell = item as IDataGridViewCustomCell;
+                    cell.RowCustomEvent += cell_RowCustomEvent;
                     cell.SetBindSource(DataSource);
                 }
             }
@@ -246,6 +247,12 @@ namespace HZH_Controls.Controls
             {
                 IsOpened = null;
             }
+        }
+
+        void cell_RowCustomEvent(object sender, DataGridViewRowCustomEventArgs e)
+        {
+            if (RowCustomEvent != null)
+                RowCustomEvent(sender, e);
         }
 
         /// <summary>
@@ -313,6 +320,7 @@ namespace HZH_Controls.Controls
                             box.TextValue = "";
                             box.Size = new Size(30, 30);
                             box.Dock = DockStyle.Fill;
+                            box.CheckedChangeEvent += box_CheckedChangeEvent;
                             c = box;
                         }
                         else
@@ -355,6 +363,11 @@ namespace HZH_Controls.Controls
             {
                 ControlHelper.FreezeControl(this, false);
             }
+        }
+
+        void box_CheckedChangeEvent(object sender, EventArgs e)
+        {
+            IsChecked = ((UCCheckBox)sender).Checked;
         }
 
 
@@ -417,16 +430,18 @@ namespace HZH_Controls.Controls
 
                                 Control rowControl = (row as Control);
                                 row.RowHeight = m_rowHeight;
-                                rowControl.Dock = DockStyle.Top;
+                                rowControl.Width = this.Width;
+                                //rowControl.Dock = DockStyle.Top;
                                 row.CellClick += (a, b) => { CellClick(rowControl, b); };
                                 row.CheckBoxChangeEvent += (a, b) => { CheckBoxChangeEvent(rowControl, b); };
                                 row.RowCustomEvent += (a, b) => { if (RowCustomEvent != null) { RowCustomEvent(a, b); } };
                                 row.SourceChanged += SourceChanged;
                                 ChildrenRows.Add(row);
                                 row.RowIndex = ChildrenRows.IndexOf(row);
+
                                 this.Parent.Controls.Add(rowControl);
                                 var index = this.Parent.Controls.GetChildIndex(this);
-                                this.Parent.Controls.SetChildIndex(row, index);
+                                this.Parent.Controls.SetChildIndex(row, index+1);
 
                             }
                         }

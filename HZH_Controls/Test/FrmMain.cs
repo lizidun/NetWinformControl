@@ -25,6 +25,7 @@ namespace Test
             try
             {
                 ControlHelper.FreezeControl(this, true);
+                this.tvMenu.Nodes.Add("关于授权");
                 TreeNode tnForm = new TreeNode("  窗体");
                 tnForm.Nodes.Add("提示窗体");
                 tnForm.Nodes.Add("多输入窗体");
@@ -72,6 +73,8 @@ namespace Test
                 tnControl.Nodes.Add("时间轴");
                 tnControl.Nodes.Add("穿梭框");
                 tnControl.Nodes.Add("引用区块");
+                tnControl.Nodes.Add("右键菜单");
+                tnControl.Nodes.Add("日历备忘录");
                 this.tvMenu.Nodes.Add(tnControl);
 
                 TreeNode tnCharts = new TreeNode("  图表");
@@ -94,8 +97,11 @@ namespace Test
                 tnFactory.Nodes.Add("温度计");
                 tnFactory.Nodes.Add("转子");
                 tnFactory.Nodes.Add("多通道转盘");
+                tnFactory.Nodes.Add("椭圆转盘");
                 tnFactory.Nodes.Add("转盘");
+                tnFactory.Nodes.Add("注射器");
                 this.tvMenu.Nodes.Add(tnFactory);
+                AddControl(new UCShouQuan());
             }
             finally
             {
@@ -110,6 +116,9 @@ namespace Test
             this.Title = "HZHControls控件库DEMO--" + strName;
             switch (strName)
             {
+                case "关于授权":
+                    AddControl(new UCShouQuan());
+                    break;
                 #region 窗体    English:forms
                 case "提示窗体":
                     if (FrmDialog.ShowDialog(this, "是否再显示一个没有取消按钮的提示框？", "模式窗体测试", true) == System.Windows.Forms.DialogResult.OK)
@@ -296,6 +305,12 @@ namespace Test
                 case "引用区块":
                     AddControl(new UC.UCTestPanelQuote());
                     break;
+                case "右键菜单":
+                    AddControl(new UC.UCTestContextMenu());
+                    break;
+                case "日历备忘录":
+                    AddControl(new UC.UCTestCalendarNotes());
+                    break;
                 #endregion
 
                 #region 图表    English:Chart
@@ -350,8 +365,14 @@ namespace Test
                 case "多通道转盘":
                     AddControl(new UC.UCTestDialAisle());
                     break;
+                case "椭圆转盘":
+                    AddControl(new UC.UCTestUCEllipseDialAisle());
+                    break;
                 case "转盘":
                     AddControl(new UC.UCTestTurntable());
+                    break;
+                case "注射器":
+                    AddControl(new UC.UCTestSyringe());
                     break;
                 #endregion
             }

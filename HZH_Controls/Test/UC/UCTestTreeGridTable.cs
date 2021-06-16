@@ -16,6 +16,7 @@ namespace Test.UC
         public UCTestTreeGridTable()
         {
             InitializeComponent();
+            
         }
 
 
@@ -66,6 +67,11 @@ namespace Test.UC
                 tm.Childrens.Add(model);
                 AddChilds(model, intCount - 1);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var c = this.ucDataGridView1.SelectRows.Count;
         }
     }
 }
